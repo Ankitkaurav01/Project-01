@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ABeeZee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+html,body,main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.main{
+    padding: 50px 100px 50px 100px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.nav-left{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 29px;
+}
+
+.nav-left a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    gap: 16px;
+}
+
+.dabba{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dabba-left h3{
+    font-size: 22px;
+}
+
+.dabba-left h1{
+    margin-top: 20px;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 70px;
+    /* font-family: Stolzl; */
+}
+
+.dabba-left h2{
+    margin-top: 20px;
+    color:  #9BDC23; 
+    color : #CBFE47;
+}
+
+.dabba-left p{
+    margin-top: 15px;
+    font-size: 12px;
+    color: #B9B9B9;
+}
+
+
+
+.dabba-right h3{
+    margin-top: 15px;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.span{
+    color:  #9BDC23; 
+}
+
+.dabba-right p{
+    font-size: 15px;
+    color: #b9b9b98d;
+}
+
+.btn {
+    margin-top: 25px;
+    height: 40px;
+    width: 100px;
+    background-color: #9BDC23; 
+    padding: 27px, 39.36px, 26.98px, 38px;
+    border-radius: 10px;
+    border: 1px solid #9BDC23;
+    color: black;
+   
+ } 
+
+/* .main {
+    opacity: 0;
+    animation: fadeInAnimation 4s ease-in forwards;
+  } 
+
+  @keyframes fadeInAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  } */
+
+  .service{
+    margin-top: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+
+  .service-left h1{
+    font-size: 62px;
+    font-weight: 700;
+  }
+
+  .service-left p{
+    font-size: 10px;
+    color: #b9b9b9a9;
+  }
+
+  .service-right {
+    align-items: flex-end;
+  }
+
+  .service-right h1{
+     font-size: 22px;
+     font-weight: 400;
+  }
+
+  .service-right p{
+    margin-top: 7px;
+    font-size: 10px;
+    color: #b9b9b9a9;
+  }
+
+  .brand{
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo2 img{
+    height: 28px;
+    width: 28px;
+  }
+
+  .brand-child{
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+
+  .margin{
+    margin-top: 70px;
+  }
+
+  .work{
+    background-color: rgb(30, 30, 30);
+    margin-top: 10 0px;
+  }
+
+  .latest-work{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .btn1 {
+    height: 50px;
+    width: 140px;
+    background-color: #9BDC23; 
+    padding: 27px, 39.36px, 26.98px, 38px;
+    border-radius: 10px;
+    border: 1px solid #9BDC23;
+    color: black;
+ } 
+
+ .work h1{
+    font-size: 42px;
+    font-weight: 600;
+ }
+
+ .bottle img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    padding: 50px 47px;
+ }
+
+ .bottle-down{
+    display: flex;
+    align-items: center;
+ }
+
+ .bottle-down img{
+    margin-left: 40px;
+    margin-right: 10PX;
+    color:  #9BDC23; 
+    height: 15px;
+ }
+
+ .bottle-down h1{
+    font-size: 24px;
+    font-weight: 200;
+ }
+
+ .bottle-down h1 span{
+    font-size: 30px;
+    margin-right: 10px;
+ }
+
+ .bottle-down p{
+    margin-left: 380px;
+    font-size: 14px;
+    color: #b9b9b9a9;
+ }
+
+ .behance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+ }
+
+
+.behance button{
+    margin-left: 40px;
+    padding: 15px 25px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.behance i{
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 40px;
+}
+
+.hr{
+    margin-top: 30px;
+}
+
+.color-work{
+    position: relative;
+    margin-top: 80px;
+}
+
+.color-work img{
+    /* position: relative; */
+    height: 80%;
+    width: 80%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover; 
+}
+
+.star img{
+  position: absolute;
+  height: 180px;
+  width: 180px;
+  color: black;
+  top: 25%;
+  left: 13%;
+}
+
+.color-work{
+    margin-top: 150px;
+}
+
+.color-work h1{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.color-up p{
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: rgba(0, 0, 0, 0.596);
+    font-size: 10px;
+}
+
+
+ .touch-me button{
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  padding: 13px;
+  border-radius: 10px;
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+}
+
+.touch-me{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.asset-img{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 61%;
+  left: 40%;
+  gap: 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.client-page{
+  margin-top: 150px;
+}
+
+.client-page h1{
+  font-size: 50px;
+  text-align: center;
+  /* margin-left: 30%; */
+}
+
+.client-page p{
+  margin-top: 10px;
+  font-size: 14px;
+  color: #b9b9b9a9;
+  text-align: center;
+}
+
+.card-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  margin-top: 80px;
+}
+
+.card1{
+  height: 280px;
+  width: 19%;
+  border: 1px solid #b9b9b9a9;
+  border-radius: 30px;
+}
+
+.card1 img{
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.card1 h2{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card1 h3{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #b9b9b9d6;
+}
+
+.card1 h4{
+  margin-top: 15px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.card1 h5{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 12px;
+  color: #9BDC23;
+}
+
+.butn button{
+   height: 50px;
+   width: 120px;
+   background-color: #9BDC23;
+   border: 1px solid #9BDC23;
+   border-radius: 10px;
+   color: black;
+   margin-left: 46%;
+   margin-top: 50px;
+}
+
+.hr1{
+  margin-top: 150px;
+  margin-bottom: 70px;
+}
+
+.last-page{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.last-left img{
+  height: 50px;
+  width: 50px;
+}
+
+.last-left h3{
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.touch-me2{
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.touch-me2 button{
+  height: 50px;
+  width: 140px;
+  background-color: #9BDC23;
+  border: 1px solid #9BDC23;
+  border-radius: 10px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.asset-img2{
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.asset-img2 img{
+  height: 20px;
+  width: 20px;
+}
+
+.last-right{
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  gap: 70px;
+}
+
+.left-contact h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.left-contact h4{
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.left-contact h5{
+  margin-top: 10px;
+  font-size: 12px;
+  color: #b9b9b9b9;
+}
+
+.right-contact h3{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.right-contact h5{
+  margin-top: 10px;
+  font-size: 12px;
+  color: #b9b9b9b9;
+}
+
+
