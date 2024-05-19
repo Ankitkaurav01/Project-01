@@ -512,7 +512,7 @@ html,body,main{
 
 
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
   .main {
     padding: 10px 35px 10px 35px;
   }
@@ -544,6 +544,10 @@ html,body,main{
     margin-top: 70px;
   }
 
+  .service h1{
+    text-align: center;
+  }
+
   .service-left p {
     text-align: center;
   }
@@ -568,35 +572,35 @@ html,body,main{
 }
 
   .star img{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     top: 15%;
     left: 8%;
   }
 
   .color-work h1{
     font-size: 15px;
-    top: 18%;
+    top: 13%;
     left: 29%;
   }
 
   .color-work p{
     font-size: 4px;
-    left: 29%;
+    left: 30%;
   }
 
   .touch-me button{
     top: 72%;
-    left: 10%;
-    padding: 5px;
+    left: 6%;
+    padding: 1px;
   }
 
   .asset-img{
-    top: 74%;
-    left: 34%;
+    top: 75%;
+    left: 36%;
     gap: 5px;
-    height: 20px;
-    width: 20px;
+    height: 12px;
+    width: 12px;
   }
 
   .card-box{
