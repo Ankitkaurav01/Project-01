@@ -15,7 +15,7 @@ html,body,main{
 }
 
 .main{
-    padding: 50px 100px 50px 100px;
+    padding: 30px 100px 50px 100px;
 }
 
 .nav{
@@ -92,7 +92,7 @@ html,body,main{
 }
 
 .btn {
-    margin-top: 25px;
+    /* margin-top: 25px; */
     height: 40px;
     width: 100px;
     background-color: #9BDC23; 
@@ -118,10 +118,11 @@ html,body,main{
   } */
 
   .service{
-    margin-top: 230px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    margin-bottom: 80px;
   }
 
 
@@ -177,6 +178,7 @@ html,body,main{
   }
 
   .latest-work{
+    padding: 20px;
     margin-top: 150px;
     display: flex;
     justify-content: space-between;
@@ -207,8 +209,14 @@ html,body,main{
     padding: 50px 47px;
  }
 
+ .flex{
+  display: flex;
+  align-items: center;
+ }
+
  .bottle-down{
     display: flex;
+    justify-content: space-between;
     align-items: center;
  }
 
@@ -230,7 +238,7 @@ html,body,main{
  }
 
  .bottle-down p{
-    margin-left: 380px;
+    /* margin-left: 380px; */
     font-size: 14px;
     color: #b9b9b9a9;
  }
@@ -490,6 +498,10 @@ html,body,main{
   font-weight: 600;
 }
 
+.right-contact a{
+  text-decoration: none;
+}
+
 .right-contact h5{
   margin-top: 10px;
   font-size: 12px;
@@ -497,3 +509,131 @@ html,body,main{
 }
 
 
+
+
+
+@media screen and (max-width: 480px){
+  .main {
+    padding: 10px 35px 10px 35px;
+  }
+
+.nav{
+    display: none;
+  }
+
+  .dabba{
+    gap: 40px;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .dabba-left{
+    text-align: center;
+  }
+
+  .Contact-btn{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .service {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+
+  .service-left p {
+    text-align: center;
+  }
+  .latest-work {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .bottle-down {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .bottle-down-para{
+    width: 50%;
+  }
+
+  .color-work {
+    margin-top: 80px;
+}
+
+  .star img{
+    height: 70px;
+    width: 70px;
+    top: 15%;
+    left: 8%;
+  }
+
+  .color-work h1{
+    font-size: 15px;
+    top: 18%;
+    left: 29%;
+  }
+
+  .color-work p{
+    font-size: 4px;
+    left: 29%;
+  }
+
+  .touch-me button{
+    top: 72%;
+    left: 10%;
+    padding: 5px;
+  }
+
+  .asset-img{
+    top: 74%;
+    left: 34%;
+    gap: 5px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .card-box{
+    flex-direction: column;
+  }
+
+  .card1{
+    width: 73%;
+  }
+
+  .butn{
+    margin-right: 99px;
+  }
+
+  .client-page {
+    margin-top: 60px;
+  }
+
+  .hr1{
+    margin-top: 80px;
+  }
+
+  .last-page{
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .last-left{
+      text-align: center;
+  }
+
+  .asset-img2{
+    display: none;
+  }
+   
+  .touch-me2{
+    justify-content: center;
+  }
+
+}
